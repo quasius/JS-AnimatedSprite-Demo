@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Animation Example</title>
+		
+		<!--Load 3rd party scripts -->
+		<script src="js/3rd-party/jquery-2.1.0.min.js"></script> <!--Only needed for example.  AnimatedSprite.js or Math scripts do not depend on jQuery. -->
+		
+		<!--Load math scripts -->
+		<script type="text/javascript" src="js/Math/GeneralMath.js"></script>
+		<script type="text/javascript" src="js/Math/Vec2D.js"></script>
+
+		<!--Load animation scripts -->
+		<script type="text/javascript" src="js/AnimationDefinitions.js"></script>
+		<script type="text/javascript" src="js/AnimatedSprite.js"></script>
+
+	</head>
+	<body>
+		<!--Burn it -->
+		<button type="button" id="burn-one-shot" style="position:absolute; left:140px; top:70px">Burn animation one-shot</button>
+		<button type="button" id="burn-one-shot-middle" style="position:absolute; left:140px; top:100px">Burn animation one-shot start in middle</button>
+		
+		<!--Twilight needs buttons -->
+		<button type="button" id="twilight-up" style="position:absolute; left:335px; top:185px">&nbsp;^&nbsp;</button>
+		<button type="button" id="twilight-up-right" style="position:absolute; left:410px; top:185px">^></button>
+		<button type="button" id="twilight-right" style="position:absolute; left:410px; top:245px">&nbsp;></button>
+		<button type="button" id="twilight-down-right" style="position:absolute; left:410px; top:305px">v></button>
+		<button type="button" id="twilight-down" style="position:absolute; left:335px; top:305px">&nbsp;v&nbsp;</button>
+		<button type="button" id="twilight-pause-play" style="position:absolute; left:480px; top:245px">Pause</button>
+		<button type="button" id="twilight-hide-show" style="position:absolute; left:550px; top:245px">Hide</button>
+	
+		<!--Run animation example -->
+		<script type="text/javascript" src="js/AnimationExample.js"></script>
+	
+	</body>
+</html>
